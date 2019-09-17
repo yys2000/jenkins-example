@@ -19,7 +19,7 @@ pipeline {
               
             }
         }
-
+/*
         stage('Generate HTML report') {
             steps {
                 cucumber buildStatus: "UNSTABLE",
@@ -27,6 +27,6 @@ pipeline {
                         jsonReportDirectory: 'target'
             }
 
-        }
+        }*/
     }
 }
