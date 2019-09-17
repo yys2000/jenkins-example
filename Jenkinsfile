@@ -25,7 +25,7 @@ pipeline {
                 input('Do you want to deploy?')
             }
         }
-
+/*
         stage ('Deployment Stage') {
             steps {
 
@@ -37,7 +37,7 @@ pipeline {
 
 			
                 }
-            }
+            }*/
         }
     }
 }
