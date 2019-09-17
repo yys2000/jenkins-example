@@ -12,7 +12,7 @@ pipeline {
         }
 
 
-
+/*
         stage ('Deployment Stage') {
             steps {
 
@@ -20,6 +20,6 @@ pipeline {
                 sh '/usr/local/bin/aws s3 ls'
                 sh '/usr/local/bin/aws s3 ls s3://techprimers-s3/'
             }
-        }
+        }*/
     }
 }
